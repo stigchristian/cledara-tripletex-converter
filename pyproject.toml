@@ -6,10 +6,13 @@ authors = ["Stig Christian Aske <sca@vitalthings.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.8"
 typer = "^0.12.5"
 ruff = "^0.6.9"
+pydantic = "^2.9.2"
 
+[tool.poetry.scripts]
+cledara-tripletex = "cledara_tripletex.main:cli"
 
 [build-system]
 requires = ["poetry-core"]
