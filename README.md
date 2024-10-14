@@ -3,6 +3,8 @@
 # Cledara Tripletex Converter
 =====================================
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Overview
 
 This is a tool to convert Cledara transactions into a format compatible with Tripletex, a Norwegian accounting system. The converter takes a Cledara transactions CSV file export of transactions as input and generates a file that can be imported into Tripletex (Mamut GBAT10 format).
